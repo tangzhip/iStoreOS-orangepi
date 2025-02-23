@@ -170,7 +170,7 @@ jobs:
         name: R${{ env.DATE }} for ${{ env.FIRMWARE_TAG }}
         allowUpdates: true
         tag: ${{ env.FIRMWARE_TAG }}
-        token: ${{ secrets.opi4b }}
+        token: ${{ secrets.OPI4B }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
         body: |
           **This is iStoreOS Firmware for ${{ env.FIRMWARE_TAG }}**
